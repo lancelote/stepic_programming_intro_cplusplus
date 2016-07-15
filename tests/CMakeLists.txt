@@ -1,4 +1,0 @@
-project(stepic_programming_intro_cplusplus)
-
-add_subdirectory(lib/googletest/googletest)
-add_subdirectory(unit_tests)

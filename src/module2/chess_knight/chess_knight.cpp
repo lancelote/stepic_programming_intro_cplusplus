@@ -14,4 +14,21 @@
  *     попасть во вторую или NO в противном случае.
  */
 
+#include <iostream>
 
+using namespace std;
+
+int main() {
+    int y1, x1, y2, x2;
+    cin >> y1 >> x1 >> y2 >> x2;
+    if (
+        ((y1 + 2) == y2 && abs(x1 - x2) == 1) ||
+        ((y1 - 2) == y2 && abs(x1 - x2) == 1) ||
+        ((x1 + 2) == x2 && abs(y1 - y2) == 1) ||
+        ((x1 - 2) == x2 && abs(y1 - y2) == 1)
+            ) {
+        cout << "YES";
+    } else {
+        cout << "NO";
+    }
+}
