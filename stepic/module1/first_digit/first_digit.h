@@ -1,0 +1,8 @@
+#pragma once
+
+#ifndef STEPIC_PROGRAMMING_INTRO_CPLUSPLUS_FIRST_DIGIT_H
+#define STEPIC_PROGRAMMING_INTRO_CPLUSPLUS_FIRST_DIGIT_H
+
+int firstDigit(int n);
+
+#endif

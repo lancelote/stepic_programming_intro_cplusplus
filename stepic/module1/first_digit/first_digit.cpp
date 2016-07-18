@@ -10,13 +10,6 @@
  *     Выведите одно целое число - ответ на задачу.
  */
 
-#include <iostream>
-
-using namespace std;
-
-int main() {
-    int n;
-    cin >> n;
-    cout << n / 10;
-    return 0;
+int firstDigit(int n) {
+    return n / 10;
 }
