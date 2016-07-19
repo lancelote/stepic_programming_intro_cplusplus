@@ -1,11 +1,11 @@
 #include <iostream>
-#include "module1/first_digit/first_digit.h"
+#include "module3/lcd/lcd.h"
 
 using namespace std;
 
 int main() {
     int n;
     cin >> n;
-    cout << firstDigit(n);
+    cout << lcd(n);
     return 0;
 }

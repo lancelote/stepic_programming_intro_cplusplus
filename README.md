@@ -6,7 +6,7 @@ Code for Stepic course [Intro to Programming (C++)][1]
 
 - [x] [Целые числа](src/module1)
 - [x] [Условный оператор](src/module2)
-- [ ] Цикл while
+- [x] Цикл while
 - [ ] Действительные числа
 - [ ] Цикл for и массивы
 - [ ] Двумерные массивы

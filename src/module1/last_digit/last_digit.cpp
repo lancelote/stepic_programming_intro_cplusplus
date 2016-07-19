@@ -14,9 +14,14 @@
 
 using namespace std;
 
-int main() {
+int lastDigit(int n) {
+    return n % 10;
+}
+
+
+int main_tmp() {
     int n;
     cin >> n;
-    cout << n % 10;
+    cout << lastDigit(n);
     return 0;
 }
