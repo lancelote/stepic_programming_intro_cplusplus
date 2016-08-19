@@ -8,7 +8,7 @@ Code for Stepic course [Intro to Programming (C++)][1]
 - [x] [Условный оператор](src/module2)
 - [x] [Цикл while](src/module3)
 - [x] [Действительные числа](src/module4)
-- [ ] Цикл for и массивы
+- [x] [Цикл for и массивы](src/module5)
 - [ ] Двумерные массивы
 - [ ] Функции и рекурсия
 - [ ] Строки и символы
